@@ -1,0 +1,121 @@
+@media screen and (min-width : 767px) and (max-width : 991px) {
+    body {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .flexFiltre {
+        width: 117%;
+    }
+
+    .filtre {
+        gap: 15px;
+    }
+/* main */
+    .fullcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gapContain {
+        flex-direction: row;
+    }
+
+    .cards {
+        height: 9em;
+        width: 10em;
+    }
+
+    .grids {
+        grid-template-columns: 15em 15em 20em;
+    }
+
+    .containerOne,
+    .containerTwo,
+    .footer,
+    .Activities {
+        margin-left: 9px;
+    }
+
+    .containerTwo {
+        margin-left: 15px;
+        gap: 0;
+    }
+
+    .gapContain,
+    .fullcontainer {
+        gap: 6px;
+    }
+
+    .textOfCards {
+        width: 10em;
+    }
+
+    .cardsPopular {
+        height: 75%;
+    }
+
+    .hfour {
+        padding-top: 0;
+    }
+
+    .filtre button {
+        padding: 1px 11px 1px 12px;
+    }
+
+    .filtreSize {
+        font-size: 16px;
+    }
+
+    h3 {
+        padding: 0;
+    }
+
+    .textOne p,
+    .textTwo p,
+    .textThree p {
+        font-size: 13px;
+        width: 72%;
+    }
+
+    .Activities {
+        gap: 15px;
+        margin-bottom: 50px;
+        margin-left: 9px;
+
+    }
+
+    .imgActivity {
+        height: 80%;
+        width: 100%;
+    }
+
+  
+
+    .boxShadow {
+        height: 318px;
+
+    }
+
+    .boxShadow p {
+        font-size: 14px;
+    }
+
+    .priceOne,
+    .priceTwo {
+        padding-bottom: 0;
+    }
+
+    .priceThree {
+        padding-bottom: 16px;
+    }
+
+    .ajustCannebiere {
+        font-size: 15px;
+    }
+    /* footer */
+    .footer {
+        gap: 0;
+        width: 100%;
+    }
+}

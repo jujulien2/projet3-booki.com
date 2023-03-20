@@ -1,0 +1,205 @@
+@media screen and (max-width : 767px) {
+    body {
+        margin-left: 0;
+
+    }
+
+    /* header */
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    li a:hover {
+        border-top: 0;
+        color: #0065FC;
+        border-bottom: #0065FC solid 2px;
+    }
+
+
+
+    li a {
+        border-bottom: gray solid 2px;
+        color: black;
+    }
+
+    .qriesLink {
+        padding-right: 38px;
+        padding-left: 60px;
+        margin-left: 2em;
+    }
+
+
+    .qriesLinkTwo {
+        padding-left: 51px;
+        padding-right: 88px;
+        margin-right: 1em;
+    }
+
+    .rightHeader {
+        gap: 0;
+    }
+
+    .logoBooki {
+        margin-left: 4em;
+        padding: 20px;
+    }
+
+    .hp {
+        margin-left: 11px;
+        width: 99%;
+        gap: 1em;
+    }
+
+    /* search form */
+    form button {
+        display: none;
+        font-size: 0;
+
+
+    }
+
+    form {
+        margin-top: 1em;
+        padding: 0;
+    }
+
+    /* filtre */
+
+    .filtre,
+    .flexFiltre {
+        flex-wrap: wrap;
+    }
+
+    .fa-magnifying-glass {
+        visibility: visible;
+    }
+
+
+    .flexFiltre {
+        width: 23em;
+        padding-bottom: 2em;
+    }
+
+    .filtre {
+        gap: 10px;
+    }
+
+    .filtre button {
+        padding: 1px 14px 1px 12px;
+    }
+
+    .filtreSize {
+        font-size: 15px;
+
+    }
+
+    /* infos icone */
+    .info {
+        width: 100%;
+        gap: 8px;
+    }
+
+    /* Main */
+    .textThree {
+        width: 50%;
+    }
+.gapContain{
+    margin-left: 12px;
+}
+    .fullcontainer {
+        flex-direction: column-reverse
+    }
+
+    .grids {
+        grid-template-columns: 0;
+
+    }
+
+    .Activities {
+        flex-direction: column;
+        margin-left: 3%;
+        gap: 10px;
+    }
+
+
+
+    .containerTwo {
+        margin-left: 0;
+        width: 104%;
+        padding: 4px
+    }
+
+    .containerone {
+        margin-left: 0;
+        background-color: #F0F2F6;
+        width: 100%;
+        padding: 11px
+    }
+
+    .cardsPopular {
+        width: 77%;
+        height: 89%;
+    }
+
+    .cards {
+        height: 12em;
+        width: 17em;
+        padding-bottom: 0;
+    }
+
+    .priceOne {
+        padding-bottom: 30px;
+    }
+
+    .priceTwo {
+        padding-bottom: 15px;
+    }
+
+    .textOfCards p {
+        display: inline;
+    }
+
+    .imgpopular {
+        width: 36%;
+    }
+
+    h3 {
+        padding: 0;
+    }
+
+    .showmore {
+        display: none;
+    }
+
+    .backgroundQries {
+        background-color: #F0F2F6;
+        width: 106%;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    .imgActivity {
+        height: 9em;
+        width: 100%;
+    }
+
+    .boxShadow {
+        width: 93%;
+    }
+
+    .fa-chart-line {
+        padding-right: 25px;
+    }
+
+    /* footer */
+
+    .footer {
+        flex-direction: column;
+        gap: 0;
+        margin-left: 0;
+        width: 100%;
+        padding-left: 18px
+    }
+}
