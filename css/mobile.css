@@ -25,15 +25,15 @@
     }
 
     .qriesLink {
-        padding-right: 38px;
-        padding-left: 60px;
+        padding-right: 68px;
+        padding-left: 41px;
         margin-left: 2em;
     }
 
 
     .qriesLinkTwo {
-        padding-left: 51px;
-        padding-right: 88px;
+        padding-left: 52px;
+        padding-right: 56px;
         margin-right: 1em;
     }
 
@@ -196,10 +196,12 @@
     /* footer */
 
     .footer {
+        padding-right: 6px;
         flex-direction: column;
         gap: 0;
         margin-left: 0;
         width: 100%;
         padding-left: 18px
+       
     }
 }

@@ -5,7 +5,7 @@
     }
 
     .flexFiltre {
-        width: 117%;
+        width: 95%;
     }
 
     .filtre {
@@ -28,6 +28,7 @@
 
     .grids {
         grid-template-columns: 15em 15em 20em;
+        margin-left: 8px;
     }
 
     .containerOne,
@@ -36,7 +37,10 @@
     .Activities {
         margin-left: 9px;
     }
-
+.containerone{
+    margin-left: 10px;
+    padding: 9px;
+}
     .containerTwo {
         margin-left: 15px;
         gap: 0;
@@ -117,5 +121,6 @@
     .footer {
         gap: 0;
         width: 100%;
+        padding-right: 15px;
     }
 }
