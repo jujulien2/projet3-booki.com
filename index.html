@@ -23,16 +23,16 @@
 	<header>
 		<nav>
 			<img class="logoBooki" src="logo/Booki.png" alt="logo1" title="Booki, des logements easy !">
-			<ul class="rightHeader">
-				<li><a class="qriesLink" href="#hebergementLink">Hébergements</a></li>
-				<li><a class="qriesLinkTwo" href="#activitiesLink">Activités </a> </li>
+			<ul>
+				<li><a class="qriesLink" href="#hebergementHook">Hébergements</a></li>
+				<li><a class="qriesLinkTwo" href="#activitiesHook">Activités </a> </li>
 			</ul>
 		</nav>
 
 		<!-- search form -->
 
 		<div class="hp">
-			<article class="hOne">
+			<article>
 				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			</article>
 			<p>En plein centre-ville ou en pleine nature </p>
@@ -42,8 +42,7 @@
 		<form method="get" action="#">
 			<i class="fa-solid fa-location-dot fa-1x"></i>
 			<input type="text" name="Recherche" id="reach" placeholder="Marseille, France">
-			<button>Recherchez</button>
-			<i class="fa-solid fa-magnifying-glass"></i>
+			<button>Recherchez</button><i class="fa-solid fa-magnifying-glass"></i>
 		</form>
 
 	</header>
@@ -72,23 +71,23 @@
 
 
 	<main>
-		<section class="fullcontainer">
-			<div class="containerone">
+		<section id="fullcontainer">
+			<div id="containerone">
 
-				<h3 id="hebergementLink">Hébergements à Marseille</h3>
-				<div class="grids">
+				<h3 id="hebergementHook">Hébergements à Marseille</h3>
+				<div class="allLodgings">
 
 					<!-- Canebière -->
 
-					<a class="cards" href="">
+					<a href="">
 						<img class="imgHostel" src="hebergement/hebergements/4_small/cannebiere.jpg" alt="cannebiere"
 							title="La Canebière">
 						<div class="underCards">
-							<div class="textOfCards">
+							<div class="hostelsname">
 								<p class="ajustCannebiere">Auberge La Canebière</p>
 							</div>
 							<div class="price">
-								<p>Nuit à partir de 25€</p>
+								<p>Nuit à partir de 25<strong>€</strong></p>
 							</div>
 							<div class="icones">
 								<i class="fa-solid fa-star"></i>
@@ -104,15 +103,15 @@
 
 					<!-- Port -->
 
-					<a class="cards" href="">
+					<a  href="">
 						<img class="imgHostel" src="hebergement/hebergements/4_small/hôtelport.jpg" alt="porthostel"
 							title="Hôtel du port">
 						<div class="underCards">
-							<div class="textOfCards">
+							<div class="hostelsname">
 								<p>Hôtel du port</p>
 							</div>
 							<div class="price">
-								<p>Nuit à partir de 52€</p>
+								<p>Nuit à partir de 52<strong>€</strong></p>
 							</div>
 							<div class="icones">
 								<i class="fa-solid fa-star"></i>
@@ -127,15 +126,15 @@
 
 					<!-- Mouettes -->
 
-					<a class="cards" href="">
+					<a  href="">
 						<img class="imgHostel" src="hebergement/hebergements/4_small/lesmouettes.jpg"
 							alt="lesmouettes hostel" title="hôtel les mouettes">
 						<div class="underCards">
-							<div class="textOfCards">
+							<div class="hostelsname">
 								<p>Hôtel les mouettes</p>
 							</div>
 							<div class="price">
-								<p>Nuit à partir de 76€</p>
+								<p>Nuit à partir de 76<strong>€</strong></p>
 							</div>
 							<div class="icones">
 								<i class="fa-solid fa-star"></i>
@@ -150,15 +149,15 @@
 
 					<!-- La mer -->
 
-					<a class="cards" href="">
+					<a  href="">
 						<img class="imgHostel" src="hebergement/hebergements/4_small/lamer.jpg" alt="sea hostel"
 							title="hôtel de la mer">
 						<div class="underCards">
-							<div class="textOfCards">
+							<div class="hostelsname">
 								<p>Hôtel de la mer</p>
 							</div>
 							<div class="price">
-								<p>Nuit à partir de 46€</p>
+								<p>Nuit à partir de 46<strong>€</strong></p>
 							</div>
 							<div class="icones">
 								<i class="fa-solid fa-star"></i>
@@ -172,15 +171,15 @@
 
 					<!-- Le panier -->
 
-					<a class="cards" href="">
+					<a  href="">
 						<img class="imgHostel" src="hebergement/hebergements/4_small/lepanier.jpg" alt="Le panier lodge"
 							title="Auberge le Panier">
 						<div class="underCards">
-							<div class="textOfCards">
+							<div class="hostelsname">
 								<p>Auberge Le Panier</p>
 							</div>
 							<div class="price">
-								<p>Nuit à partir de 23€</p>
+								<p>Nuit à partir de 23<strong>€</strong></p>
 							</div>
 							<div class="icones">
 								<i class="fa-solid fa-star"></i>
@@ -194,15 +193,15 @@
 
 					<!-- Chez Amina -->
 
-					<a class="cards" href="">
+					<a  href="">
 						<img class="imgHostel" src="hebergement/hebergements/4_small/Amina.jpg" alt="Amina's Hostel"
 							title="Hôtel Chez Amina">
 						<div class="underCards">
-							<div class="textOfCards">
+							<div class="hostelsname">
 								<p>Hôtel Chez Amina</p>
 							</div>
 							<div class="price">
-								<p>Nuit à partir de 96€</p>
+								<p>Nuit à partir de 96<strong>€</strong></p>
 							</div>
 							<div class="icones">
 								<i class="fa-solid fa-star"></i>
@@ -215,31 +214,31 @@
 					</a>
 				</div>
 
-				<a href="" class="showmore">Afficher plus</a>
+				<a href="" class="showmore">
+					<h6>Afficher plus</h6>
+				</a>
 
 			</div>
 
 			<!-- Most popular -->
 
 			<!-- Card one -->
-			<div class="containerTwo">
+			<div id="containerTwo">
 				<article class="hfour">
 					<h4>Les plus populaires</h4> <i class="fa-solid fa-chart-line fa-2x"></i>
 				</article>
-				<div class="gapContain">
+				<div class="threeMost">
 
-
-					<div class="mostPopularOne">
 						<a class="cardsPopular" href="">
 							<img class="imgpopular" src="hebergement/hebergements/4_small/soleilmatin.jpg"
 								alt="soleil du matin" title="Soleil du Matin">
 
 							<div class="textOne">
-								<div class="textOfCards">
+								<div class="hostelsname">
 									<p>Hôtel le soleil du matin</p>
 								</div>
-								<div class="priceOne">
-									<p>Nuit à partir de 128€</p>
+								<div class="popularPrice">
+									<p>Nuit à partir de 128<strong>€</strong></p>
 								</div>
 
 								<div class="icones">
@@ -252,20 +251,20 @@
 							</div>
 						</a>
 
-					</div>
+					
 					<!-- Card two -->
 
-					<div class="mostPopularTwo">
+					
 						<a class="cardsPopular" href="">
 							<img class="imgpopular" src="hebergement/hebergements/4_small/coursdeleau.jpg"
 								alt="coeur de l'eau" title="Au coeur de l'eau">
 
 							<div class="textTwo">
-								<div class="textOfCards">
+								<div class="hostelsname">
 									<p>Chambres d'Hôtes Au coeur de l'eau</p>
 								</div>
-								<div class="priceTwo">
-									<p>Nuit à partir de 71€</p>
+								<div class="popularPriceExcept">
+									<p>Nuit à partir de 71 <strong>€</strong></p>
 								</div>
 
 								<div class="icones">
@@ -278,22 +277,22 @@
 							</div>
 						</a>
 
-					</div>
+					
 
 
 					<!-- Card three -->
 
-					<div class="mostPopularThree">
+					
 						<a class="cardsPopular" href="">
 							<img class="imgpopular" src="hebergement/hebergements/4_small/bleublanc.jpg"
 								alt="bleu et blanc" title="Bleu et Blanc">
 
 							<div class="textThree">
-								<div class="textOfCards">
+								<div class="hostelsname">
 									<p>Hôtel Bleu et Blanc</p>
 								</div>
-								<div class="priceThree">
-									<p>Nuit à partir de 68€</p>
+								<div class="popularPrice">
+									<p>Nuit à partir de 68<strong>€</strong></p>
 								</div>
 
 								<div class="icones">
@@ -305,13 +304,13 @@
 								</div>
 							</div>
 						</a>
-					</div>
+					
 				</div>
 			</div>
 		</section>
 
 		<section class="backgroundQries">
-			<h5 id="activitiesLink">Activités à Marseille</h5>
+			<h5 id="activitiesHook">Activités à Marseille</h5>
 			<div class="Activities">
 
 				<!-- Old-port ActivityOne -->
