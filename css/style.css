@@ -374,7 +374,7 @@ h4 {
     width: 11.2em;
 }
 
-.icones {
+.icones, .iconesExcept{
     display: flex;
 }
 
