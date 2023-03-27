@@ -51,12 +51,12 @@ visibility: visible;
     padding: 7px 25px 1px 17px;
 }
    .filtre{
-    gap: 20px;
+    gap: 4px;
     flex-wrap: wrap;
    }
    /* main */
    /* most popular */
-   .hfour, h3{
+   .hfour, h3, h5{
     padding: 15px 19px 5px 12px;
    }
    #fullcontainer{
@@ -84,6 +84,7 @@ visibility: visible;
    .allLodgings a {
     width: 100%;
 }
+
 h6{
     display: none;
 }
