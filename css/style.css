@@ -242,6 +242,7 @@ h2 {
     background-color: #FFFFFF;
     height: 200px;
     border-radius: 20px;
+    position: relative;
 }
 
 
@@ -292,21 +293,13 @@ h4 {
     font-size: 16px;
 }
 
-.price {
-
+.price__size{
     font-size: 14px;
-
 }
 
-.popularPrice {
-    font-size: 14px;
-    margin-bottom: 3em;
-}
 
-.popularPriceExcept {
-    font-size: 14px;
-    margin-bottom: 25px;
-}
+
+
 
 .fa-star {
     color: #0065FC;
@@ -325,6 +318,9 @@ h4 {
 }
 
 /* most popular */
+.textOne, .textTwo, .textThree{
+    position: relative;
+}
 .threeMost {
     display: flex;
     flex-direction: column;
@@ -380,6 +376,8 @@ h4 {
 
 .icones, .iconesExcept{
     display: flex;
+    position: absolute;
+    bottom: 8px;
 }
 
 .hfour i {
