@@ -6,7 +6,7 @@
         padding-left: 0;
     }
 header, .flexFiltre, .info{
-    margin-left: 15px;
+    margin-left: 8px;
 }
     /* header */
 
@@ -25,7 +25,6 @@ header, .flexFiltre, .info{
         border-top: 0;
         border-bottom:#0065FC solid 3px; 
         padding-left: 54px;
-        padding-right: 53px;
         padding-bottom: 1em; 
     }
 
